@@ -1,10 +1,10 @@
 import streamlit as st
 
-password = st.text_input("password")
+password = st.text_input("password", type="password")
 
-st.help(st.text_input)
+password = os.environ("path")
 
-if password == "123":
+if password == password:
   st.balloons()
   st.success("You got in!")
 else:
