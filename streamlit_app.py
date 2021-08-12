@@ -2,7 +2,7 @@ import streamlit as st
 
 password = st.text_input("password", type="password")
 
-password = os.environ("path")
+password = "123"
 
 if password == password:
   st.balloons()
