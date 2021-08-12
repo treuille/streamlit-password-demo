@@ -5,5 +5,5 @@ password = st.text_input("password")
 if password == "123":
   st.balloons()
   st.success("You got in!")
- else:
+else:
   st.error("Incorrect")
